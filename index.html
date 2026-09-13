@@ -294,6 +294,29 @@ section{padding:50px 16px}
 header{padding:45px 16px 55px}
 .highlight{transform:none}
 }
+  @media (max-width: 600px) {
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header, section {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, p, .logo, .tagline {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  }
 </style>
 </head>
 
